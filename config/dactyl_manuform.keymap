@@ -10,6 +10,16 @@
 #define RAISE 2
 #define ADJUST 3
 
+&lt {
+    flavor = "hold-preferred";
+    quick-tap-ms = <200>;
+};
+
+&mt {
+    flavor = "hold-preferred";
+    quick-tap-ms = <200>;
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
